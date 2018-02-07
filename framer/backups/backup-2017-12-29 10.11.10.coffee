@@ -195,7 +195,7 @@ head = new TextLayer
 	x: 32
 	y: Align.center
 	text: "认证越多、提额越高、审核越快"
-	fontSize: 22
+	fontSize: 28
 	fontFamily: ".PingFang SC"
 	fontWeight: 400
 	letterSpacing: 0.0
@@ -249,12 +249,12 @@ avatar = new Layer
 	parent: screenB
 	x: Align.center
 	y: 368
-	width: 200
-	height: 200
+	width: 260
+	height: 260
 	backgroundColor: "#FFF"
 	borderRadius: 130
-# 	borderColor: "#f5f5f5"
-# 	borderWidth: 2
+	borderColor: "#f5f5f5"
+	borderWidth: 2
 	image: ""
 	
 
@@ -270,13 +270,16 @@ certify = new Layer
 	z: 2
 
 
+# certify.states.a =
+# 	image: "images/certified_btn.png"
+
 	
 	
 #列表
 
 
 #列表icon
-list_icons_images = ["images/list_icon1.svg","images/list_icon2.svg","images/list_icon3.svg","images/list_icon4.svg","images/list_icon5.svg","images/list_icon6.svg","images/list_icon7.svg"]
+list_icons_images = ["images/list_icon1.png","images/list_icon2.png","images/list_icon3.png","images/list_icon4.png","images/list_icon5.png","images/list_icon6.png","images/list_icon7.png"]
 
 #列表辅助描述
 list_disc_texts = ["认证京东账号","认证支付宝账号","认证个人征信账号","认证社保账号","认证公积金账号","认证人寿保险账号","认证车险账号",]
@@ -394,9 +397,9 @@ for i in [0...7]
 	list_title = new TextLayer
 		parent: list
 		x: 138
-		y: Align.center
+		y: 30
 		width: 414
-		text: list_disc_texts[i]
+		text: "+4000元额度"
 		fontSize: 32
 		fontFamily: "PingFang SC"
 		fontWeight: 400
@@ -405,26 +408,26 @@ for i in [0...7]
 		textAlign: "left"
 		color: "rgba(66,66,66,1)"
 	
-# 	list_disc = new TextLayer
-# 		parent: list
-# 		x: 138
-# 		y: 86
-# 		width: 308
-# 		text: list_disc_texts[i]
-# 		fontSize: 28
-# 		fontFamily: "PingFang SC"
-# 		fontWeight: 300
-# 		lineHeight: 1
-# 		textAlign: "left"
-# 		color: "rgba(158,158,158,1)"
+	list_disc = new TextLayer
+		parent: list
+		x: 138
+		y: 86
+		width: 308
+		text: list_disc_texts[i]
+		fontSize: 28
+		fontFamily: "PingFang SC"
+		fontWeight: 300
+		lineHeight: 1
+		textAlign: "left"
+		color: "rgba(158,158,158,1)"
 	
 	list_icon = new Layer
 		parent: list
 		x: 40
-		y: Align.center
+		y: 40
 		backgroundColor: "transparent"
-		width: 48
-		height: 48
+		width: 64
+		height: 64
 		image: list_icons_images[i]
 	
 	line = new Layer
@@ -440,9 +443,9 @@ for i in [0...7]
 		parent: list
 		x: Align.right(-32)
 		y: 48
-		width: 120	
-		height: 48
-		image: "images/list_btn.svg"
+		width: 140	
+		height: 56
+		image: "images/list_btn.png"
 		borderRadius: 28
 
 
@@ -466,14 +469,14 @@ for i in [0...7]
 			coinbgs[n].rotation = 0
 			
 		if backSwitch = true
-			this.children[3].image = "images/list_btn_ed.png"
-			avatar.image = this.children[1].image
+			this.children[4].image = "images/list_btn_ed.png"
+			avatar.image = this.children[2].image
 			screenB.states.switch("a")
 			screenA.visible = false	
 # 			certify.states.switch("default")
 			this.ignoreEvents = true
 		else
-			this.children[4].image = "images/list_btn.svg"	
+			this.children[4].image = "images/list_btn.png"	
 			
 	screenB_back.onTouchStart (event, layer) ->
 		backSwitch = false
@@ -483,7 +486,7 @@ for i in [0...7]
 # 		print screenB.children[2].image
 		for j in [0...7]
 			if list_icons_images[j] == screenB.children[2].image
-				lists[j].children[4].image = "images/list_btn.svg"
+				lists[j].children[4].image = "images/list_btn.png"
 				lists[j].ignoreEvents = false
 				listcurrentY = lists[j].y+scroll.content.y
 	
@@ -506,7 +509,7 @@ for i in [0...7]
 		#清楚禁用状态和禁用样式
 		for k in [0...7]
 			lists[k].ignoreEvents = false
-			lists[k].children[3].image = "images/list_btn.svg"
+			lists[k].children[4].image = "images/list_btn.png"
 			
 			
 # 	rednavbar.onTouchEnd (event, layer) ->

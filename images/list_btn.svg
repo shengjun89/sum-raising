@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="54px" viewBox="0 0 138 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>list_btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="借款申请主流程" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="list_btn">
+            <g id="Group-16">
+                <path d="M27,0 L89,0 L89,0 C103.911688,-2.73923269e-15 116,12.0883118 116,27 L116,27 L116,27 C116,41.9116882 103.911688,54 89,54 L27,54 L27,54 C12.0883118,54 8.93158249e-15,41.9116882 7.10542736e-15,27 L7.10542736e-15,27 L7.10542736e-15,27 C5.27927223e-15,12.0883118 12.0883118,2.73923269e-15 27,0 Z" id="Rectangle-20" fill="#FF3D3A"></path>
+                <text id="+4000" font-family="PingFangSC-Medium, PingFang SC" font-size="32" font-weight="400" fill="#FFFFFF">
+                    <tspan x="14" y="37">+</tspan>
+                    <tspan x="33.36" y="37" font-family="DINAlternate-Bold, DIN Alternate" font-weight="bold">4000</tspan>
+                </text>
+                <polyline id="Path-16" stroke="#B4B4B4" stroke-width="2" points="130 20 136.576473 26.5764732 130 33"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

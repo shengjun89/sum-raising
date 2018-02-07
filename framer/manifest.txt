@@ -1,69 +1,76 @@
 app.coffee
-framer/backups/backup-2017-09-12 17.17.37.coffee
-framer/backups/backup-2017-09-12 17.18.37.coffee
-framer/backups/backup-2017-09-12 17.26.37.coffee
-framer/backups/backup-2017-09-12 17.31.37.coffee
-framer/backups/backup-2017-09-12 17.32.37.coffee
-framer/backups/backup-2017-09-12 17.34.37.coffee
-framer/backups/backup-2017-09-12 17.37.37.coffee
-framer/backups/backup-2017-09-12 18.28.44.coffee
-framer/backups/backup-2017-09-16 18.20.34.coffee
-framer/backups/backup-2017-09-20 17.42.42.coffee
-framer/backups/backup-2017-09-20 23.14.47.coffee
-framer/backups/backup-2017-09-20 23.15.47.coffee
-framer/backups/backup-2017-09-20 23.18.47.coffee
-framer/backups/backup-2017-09-20 23.19.47.coffee
-framer/backups/backup-2017-09-20 23.45.47.coffee
-framer/backups/backup-2017-09-20 23.46.47.coffee
-framer/backups/backup-2017-09-20 23.53.47.coffee
-framer/backups/backup-2017-09-20 23.56.47.coffee
-framer/backups/backup-2017-09-20 23.57.47.coffee
-framer/backups/backup-2017-10-27 15.17.12.coffee
-framer/backups/backup-2017-10-27 15.18.12.coffee
-framer/coffee-script.js
-framer/config.json
-framer/framer.generated.js
-framer/framer.init.js
-framer/framer.js
-framer/framer.js.map
-framer/framer.modules.js
-framer/images/cursor-active.png
-framer/images/cursor-active@2x.png
-framer/images/cursor.png
-framer/images/cursor@2x.png
-framer/images/icon-120.png
-framer/images/icon-152.png
-framer/images/icon-180.png
-framer/images/icon-192.png
-framer/images/icon-76.png
-framer/manifest.txt
-framer/preview.png
-framer/social-1200x630.png
-framer/social-800x600.png
-framer/social-80x80.png
-framer/social-880x460.png
-framer/style.css
-framer/version
-images/back.png
-images/bottom_btn.png
-images/button.png
-images/certified_btn.png
-images/certify_btn.png
-images/coins.gif
-images/info.png
-images/list_btn.png
-images/list_btn_ed.png
-images/list_icon1.png
-images/list_icon2.png
-images/list_icon3.png
-images/list_icon4.png
+index.html
 images/list_icon5.png
+images/info.png
+images/list_icon4.png
 images/list_icon6.png
 images/list_icon7.png
+images/list_icon3.png
 images/Nav.png
-images/Nav_red.png
-images/Path.png
-images/statusbar.png
+images/list_icon2.png
+images/list_icon1.png
+images/list_icon1.svg
+images/certify_btn.png
+images/list_icon2.svg
+images/bottom_btn.png
+images/list_icon3.svg
+images/list_icon7.svg
 images/toastbg.png
-index.html
+images/Path.png
+images/list_icon6.svg
+images/Nav_red.png
+images/list_icon4.svg
+images/coins.gif
+images/list_icon5.svg
+images/statusbar.png
+images/certified_btn.png
+images/list_btn_ed.png
+images/back.png
+images/button.png
+images/list_btn.svg
+framer/preview.png
+framer/manifest.txt
+framer/images/cursor.png
+framer/images/cursor-active@2x.png
+framer/images/icon-120.png
+framer/images/cursor@2x.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/images/cursor-active.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/config.json
+framer/social-880x460.png
+framer/framer.js.map
+framer/framer.modules.js
+framer/version
+framer/social-800x600.png
+framer/style.css
+framer/framer.generated.js
+framer/coffee-script.js
+framer/framer.init.js
+framer/backups/backup-2017-12-26 09.12.58.coffee
+framer/backups/backup-2017-12-29 13.12.15.vekter
+framer/backups/backup-2017-12-26 07.02.11.coffee
+framer/backups/backup-2018-01-09 14.33.16.coffee
+framer/backups/backup-2017-12-29 10.11.10.coffee
+framer/backups/backup-2017-12-29 13.12.14.coffee
+framer/backups/backup-2017-12-26 10.32.31.coffee
+framer/backups/backup-2018-02-06 16.59.22.coffee
+framer/backups/backup-2018-02-06 16.54.22.coffee
+framer/backups/backup-2018-01-02 13.54.07.vekter
+framer/backups/backup-2017-12-26 10.32.31.vekter
+framer/backups/backup-2017-12-26 09.50.57.coffee
+framer/backups/backup-2018-01-02 13.54.07.coffee
+framer/backups/backup-2017-12-26 07.14.11.coffee
+framer/backups/backup-2017-12-26 09.49.57.coffee
+framer/backups/backup-2017-12-26 09.12.58.vekter
+framer/backups/backup-2018-02-06 17.00.22.coffee
+framer/backups/backup-2018-02-06 17.06.22.coffee
+framer/backups/backup-2018-02-06 17.12.22.coffee
+framer/backups/backup-2017-12-29 10.11.10.vekter
+framer/backups/backup-2017-12-26 09.48.57.coffee
+framer/social-80x80.png
+framer/framer.js
+framer/social-1200x630.png
 modules/myModule.coffee

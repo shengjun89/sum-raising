@@ -195,7 +195,7 @@ head = new TextLayer
 	x: 32
 	y: Align.center
 	text: "认证越多、提额越高、审核越快"
-	fontSize: 22
+	fontSize: 28
 	fontFamily: ".PingFang SC"
 	fontWeight: 400
 	letterSpacing: 0.0
@@ -440,9 +440,9 @@ for i in [0...7]
 		parent: list
 		x: Align.right(-32)
 		y: 48
-		width: 120	
-		height: 48
-		image: "images/list_btn.svg"
+		width: 140	
+		height: 56
+		image: "images/list_btn.png"
 		borderRadius: 28
 
 
@@ -473,7 +473,7 @@ for i in [0...7]
 # 			certify.states.switch("default")
 			this.ignoreEvents = true
 		else
-			this.children[4].image = "images/list_btn.svg"	
+			this.children[4].image = "images/list_btn.png"	
 			
 	screenB_back.onTouchStart (event, layer) ->
 		backSwitch = false
@@ -483,7 +483,7 @@ for i in [0...7]
 # 		print screenB.children[2].image
 		for j in [0...7]
 			if list_icons_images[j] == screenB.children[2].image
-				lists[j].children[4].image = "images/list_btn.svg"
+				lists[j].children[4].image = "images/list_btn.png"
 				lists[j].ignoreEvents = false
 				listcurrentY = lists[j].y+scroll.content.y
 	
@@ -506,7 +506,7 @@ for i in [0...7]
 		#清楚禁用状态和禁用样式
 		for k in [0...7]
 			lists[k].ignoreEvents = false
-			lists[k].children[3].image = "images/list_btn.svg"
+			lists[k].children[4].image = "images/list_btn.png"
 			
 			
 # 	rednavbar.onTouchEnd (event, layer) ->
